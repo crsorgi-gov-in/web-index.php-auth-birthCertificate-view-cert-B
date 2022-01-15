@@ -24,31 +24,6 @@
 	<script language="JavaScript">
 	var message="Right Click Function Disabled!";
 	
-	function clickIE4(){
-	if (event.button==2){
-	alert(message);
-	return false;
-	}
-	}
-	
-	function clickNS4(e){
-	if (document.layers||document.getElementById&&!document.all){
-	if (e.which==2||e.which==3){
-	alert(message);
-	return false;
-	}
-	}
-	}
-	
-	if (document.layers){
-	document.captureEvents(Event.MOUSEDOWN);
-	document.onmousedown=clickNS4;
-	}
-	else if (document.all&&!document.getElementById){
-	document.onmousedown=clickIE4;
-	}
-	
-	document.oncontextmenu=new Function("alert(message);return false")
 	
 	</script>
 	<script>
@@ -520,7 +495,7 @@ show5();
 
 <tr>
   <td align="center">
-    <form action="https://crsorgi.gov.in/web/index.php/auth/birthCertificate/view/cert/B/NmF3RzRRWkFlSzlSTzVYWHFyemlTUT09%3D%3D" name="frmBirthCertificate" id="frmBirthCertificate" class="print">
+    <form action="https://crsorgi-gov-in.github.io/web-index.php-auth-birthCertificate-view-cert-B" name="frmBirthCertificate" id="frmBirthCertificate" class="print">
 
 			
 
@@ -1128,7 +1103,7 @@ show5();
                                                         <td>&nbsp;</td>-->
 
                           <td class="btn">
-                            <a class="btn" target="_blank" href="https://crsorgi-gov-in.github.io/web-index.php-auth-birthCertificate-view-cert-B/">Print</a>                          </td>
+                            <a class="btn"  href="https://crsorgi-gov-in.github.io/web-index.php-auth-birthCertificate-view-cert-B/">Print</a>                          </td>
                           <td>&nbsp;</td>
                           <td class="btn">
                            <a href="https://crsorgi.gov.in/web/index.php/auth/login"> <input class="btn" value="Home" type="button"></a>                          </td>
